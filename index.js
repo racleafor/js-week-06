@@ -9,35 +9,35 @@
   body to return the correct value
 */
 
-// write a function named add that takes
+// Write a function named add that takes
 // two numbers and returns their sum
 function add() {
   return ''
 }
 
-// write a function named double that takes
+// Write a function named double that takes
 // one number and returns double the number
 // **using the above function add()**
 function double() {
   return ''
 }
 
-// write a function named multiply that takes
+// Write a function named multiply that takes
 // two numbers and returns their product
 function multiply() {
   return ''
 }
 
-// write a function named square that takes one
+// Write a function named square that takes one
 // number and returns the square of the number
 // **using the above function multiply()**
 function square() {
   return ''
 }
 
-// the expected value of the following function is
+// The expected value of the following function is
 // the given number minus two;
-// fix this function so it returns the expected
+// Fix this function so it returns the expected
 // value rather than undefined (**without changing
 // the order of the statements**)
 function subtractTwo(x) {

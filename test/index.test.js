@@ -60,7 +60,7 @@ test('myFunction calls at least two other functions', () => {
   const match = code.match(/function myFunction\(.*?\) {([\s\S]+?)}/)
   const body = match[1]
   const functions = ['add(', 'double(', 'multiply(', 'square(', 'subtractTwo(']
-  const calls_two = functions.filter(body.includes)
+  const calls_two = functions.filter(x => body.includes(x))
   expect(calls_two.length).toBeGreaterThanOrEqual(2)
 })
 
