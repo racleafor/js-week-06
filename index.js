@@ -1,6 +1,12 @@
 /*
   Follow the instructions in the comments
   and pass the tests!
+  When I say "write a function" below, note
+  that they are already started for you, and
+  you need to complete them;
+  e.g., function add() is already declared;
+  add parameters to it and then complete the
+  body to return the correct value
 */
 
 // write a function named add that takes
