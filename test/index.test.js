@@ -56,6 +56,14 @@ test('takes one arg and returns first', () => {
   expect(regex.test(code)).toBeTruthy()
 })
 
+test('myFunction calls at least two other functions', () => {
+  const match = code.match(/function myFunction\(.*?\) {([\s\S]+?)}/)
+  const body = match[1]
+  const functions = ['add(', 'double(', 'multiply(', 'square(', 'subtractTwo(']
+  const calls_two = functions.filter(body.includes)
+  expect(calls_two.length).toBeGreaterThanOrEqual(2)
+})
+
 test('myFunction works', () => {
   // pass your argument(s) to myFunction here
   const result = myFunction()
